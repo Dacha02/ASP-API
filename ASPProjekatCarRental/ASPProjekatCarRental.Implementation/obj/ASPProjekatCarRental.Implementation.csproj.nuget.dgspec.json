@@ -1,0 +1,285 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Projekat\\ASPProjekatCarRental\\ASPProjekatCarRental.Implementation\\ASPProjekatCarRental.Implementation.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Projekat\\ASPProjekatCarRental\\ASPProjekatCarRental.Application\\ASPProjekatCarRental.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Projekat\\ASPProjekatCarRental\\ASPProjekatCarRental.Application\\ASPProjekatCarRental.Application.csproj",
+        "projectName": "ASPProjekatCarRental.Application",
+        "projectPath": "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Projekat\\ASPProjekatCarRental\\ASPProjekatCarRental.Application\\ASPProjekatCarRental.Application.csproj",
+        "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Projekat\\ASPProjekatCarRental\\ASPProjekatCarRental.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Projekat\\ASPProjekatCarRental\\ASPProjekatCarRental.DataAccess\\ASPProjekatCarRental.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Projekat\\ASPProjekatCarRental\\ASPProjekatCarRental.DataAccess\\ASPProjekatCarRental.DataAccess.csproj"
+              },
+              "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Projekat\\ASPProjekatCarRental\\ASPProjekatCarRental.Domain\\ASPProjekatCarRental.Domain.csproj": {
+                "projectPath": "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Projekat\\ASPProjekatCarRental\\ASPProjekatCarRental.Domain\\ASPProjekatCarRental.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Projekat\\ASPProjekatCarRental\\ASPProjekatCarRental.DataAccess\\ASPProjekatCarRental.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Projekat\\ASPProjekatCarRental\\ASPProjekatCarRental.DataAccess\\ASPProjekatCarRental.DataAccess.csproj",
+        "projectName": "ASPProjekatCarRental.DataAccess",
+        "projectPath": "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Projekat\\ASPProjekatCarRental\\ASPProjekatCarRental.DataAccess\\ASPProjekatCarRental.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Projekat\\ASPProjekatCarRental\\ASPProjekatCarRental.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Projekat\\ASPProjekatCarRental\\ASPProjekatCarRental.Domain\\ASPProjekatCarRental.Domain.csproj": {
+                "projectPath": "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Projekat\\ASPProjekatCarRental\\ASPProjekatCarRental.Domain\\ASPProjekatCarRental.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.16, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Projekat\\ASPProjekatCarRental\\ASPProjekatCarRental.Domain\\ASPProjekatCarRental.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Projekat\\ASPProjekatCarRental\\ASPProjekatCarRental.Domain\\ASPProjekatCarRental.Domain.csproj",
+        "projectName": "ASPProjekatCarRental.Domain",
+        "projectPath": "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Projekat\\ASPProjekatCarRental\\ASPProjekatCarRental.Domain\\ASPProjekatCarRental.Domain.csproj",
+        "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Projekat\\ASPProjekatCarRental\\ASPProjekatCarRental.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Projekat\\ASPProjekatCarRental\\ASPProjekatCarRental.Implementation\\ASPProjekatCarRental.Implementation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Projekat\\ASPProjekatCarRental\\ASPProjekatCarRental.Implementation\\ASPProjekatCarRental.Implementation.csproj",
+        "projectName": "ASPProjekatCarRental.Implementation",
+        "projectPath": "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Projekat\\ASPProjekatCarRental\\ASPProjekatCarRental.Implementation\\ASPProjekatCarRental.Implementation.csproj",
+        "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Projekat\\ASPProjekatCarRental\\ASPProjekatCarRental.Implementation\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Projekat\\ASPProjekatCarRental\\ASPProjekatCarRental.Application\\ASPProjekatCarRental.Application.csproj": {
+                "projectPath": "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Projekat\\ASPProjekatCarRental\\ASPProjekatCarRental.Application\\ASPProjekatCarRental.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Bogus": {
+              "target": "Package",
+              "version": "[34.0.2, )"
+            },
+            "Faker.Net": {
+              "target": "Package",
+              "version": "[2.0.154, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.5.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

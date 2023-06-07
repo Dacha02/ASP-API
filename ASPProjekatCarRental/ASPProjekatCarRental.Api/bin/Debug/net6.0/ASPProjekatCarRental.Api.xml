@@ -1,0 +1,246 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ASPProjekatCarRental.Api</name>
+    </assembly>
+    <members>
+        <member name="M:ASPProjekatCarRental.Api.Controllers.AuditLogController.Get(ASPProjekatCarRental.Application.UseCases.DTO.SearchDto.SearchForAuditLog,ASPProjekatCarRental.Application.UseCases.Queries.IGetAuditLogs)">
+            <summary>
+            Return paged audit log response
+            </summary>
+            <remarks>
+            Query params:
+            <b>- Keyword:</b> Filter audit log by Use Case name and Username.
+            <b>- DateFrom:</b> Filter audit log by date greater than provided date
+            <b>- DateTo:</b> Filter audit log by date lower than provided date
+            
+            Returns:
+            <b>Username of the User who did something on the system</b>
+            <b>Use Case name</b>
+            <b>Date and time od execution</b>
+            <b>Data that is returned or sent</b>
+            <b>IsAuthorized if he is authorized to do something return true otherwise return false</b>
+            </remarks>  
+            <response code="200">Successfully returns audit log information</response>
+            <response code="500">Server Error</response>
+        </member>
+        <member name="M:ASPProjekatCarRental.Api.Controllers.CarController.Get(ASPProjekatCarRental.Application.UseCases.DTO.SearchDto.BaseSearchWithIsRented,ASPProjekatCarRental.Application.UseCases.Queries.IGetCarsQuery)">
+            <summary>
+            Return paged cars response
+            </summary>
+            <remarks>
+            Query params:
+            <b>- Keyword:</b> Filter cars by Manufacturer, Model, and Registration plate.
+            <b>- StartOfRent and EndOfRent:</b> Only if those two are passed it will filter out cars that are available in that period of time.
+            <b>- PerPage</b> Return number of cars that are set by PerPage
+            <b>- Page</b> Return cars on that page
+            
+            Returns:<br/>
+            <b>Manufacturer name</b><br/>
+            <b>Model name</b><br/>
+            <b>Registration plate</b><br/>
+            <b>Car category</b><br/>
+            <b>Start date of registraion</b><br/>
+            <b>End date of registraion</b><br/>
+            <b>Price for renting car for a day</b><br/>
+            <b>Price for renting car for a month</b><br/>
+            <b>Car specifiactions</b>
+            </remarks>  
+            <response code="200">Successfully returns cars</response>
+            <response code="500">Server Error</response>
+        </member>
+        <member name="M:ASPProjekatCarRental.Api.Controllers.CarController.Get(System.Int32,ASPProjekatCarRental.Application.UseCases.Queries.IFindCarQuery)">
+            <summary>
+            Return car with specified Id
+            </summary>
+            <remarks>
+            Returns:<br/>
+            <b>Manufacturer name</b><br/>
+            <b>Model name</b><br/>
+            <b>Registration plate</b><br/>
+            <b>Car category</b><br/>
+            <b>Start date of registraion</b><br/>
+            <b>End date of registraion</b><br/>
+            <b>Price for renting car for a day</b><br/>
+            <b>Price for renting car for a month</b><br/>
+            <b>Car specifiactions</b>
+            </remarks>  
+            <response code="200">Successfully returns cars</response>
+            <response code="500">Server Error</response>
+        </member>
+        <member name="M:ASPProjekatCarRental.Api.Controllers.CarController.Post(ASPProjekatCarRental.Api.Core.Dto.ReciveCarWithImageDto,ASPProjekatCarRental.Application.UseCases.Commands.ICreateCarCommand)">
+            <summary>
+            Inserting cars
+            </summary>
+            <remarks>
+            This methos is inserting new car
+            </remarks>  
+            <response code="204">Successfully inserted car</response>
+            <response code="400">Validation exception</response>
+            <response code="500">Server Error</response>
+        </member>
+        <member name="M:ASPProjekatCarRental.Api.Controllers.CarController.Put(ASPProjekatCarRental.Api.Core.Dto.ReciveCarWithCarIdWithImageDto,ASPProjekatCarRental.Application.UseCases.Commands.IChangeCarCommand)">
+            <summary>
+            Changing car informations
+            </summary>
+            <remarks>
+            This method change already existed values for a car, except the price (it is adding new price because we need history of past prices)
+            </remarks>  
+            <response code="204">Successfully changed car</response>
+            <response code="400">Validation exception</response>
+            <response code="500">Server Error</response>
+        </member>
+        <member name="M:ASPProjekatCarRental.Api.Controllers.CarController.Delete(System.Int32,ASPProjekatCarRental.Application.UseCases.Commands.IDeleteCarCommand)">
+            <summary>
+            Deleting car
+            </summary>
+            <remarks>
+            This command is setting DeletedAt property to current date. It's not allowed to fully delete car!
+            </remarks>  
+            <response code="204">Successfully deleted car</response>
+            <response code="400">Validation exception</response>
+            <response code="500">Server Error</response>
+        </member>
+        <member name="M:ASPProjekatCarRental.Api.Controllers.DiscountController.Put(ASPProjekatCarRental.Application.UseCases.DTO.ReceiveDto.ReceiveDiscountDto,ASPProjekatCarRental.Application.UseCases.Commands.IPutDiscountCommand)">
+            <summary>
+            Changing discount informations
+            </summary>
+            <remarks>
+            This method change already existed values for a discount
+            </remarks>  
+            <response code="204">Successfully changed discount</response>
+            <response code="400">Validation exception</response>
+            <response code="500">Server Error</response>
+        </member>
+        <member name="M:ASPProjekatCarRental.Api.Controllers.InitialController.Post">
+            <summary>
+            Inserting intial data
+            </summary>
+            <remarks>
+            This methos is inserting some random values to all tables
+            </remarks>  
+            <response code="201">Successfully inserted data</response>
+            <response code="500">Server Error</response>
+        </member>
+        <member name="M:ASPProjekatCarRental.Api.Controllers.PricesController.Post(ASPProjekatCarRental.Application.UseCases.DTO.ReceiveDto.ReceivePriceDto,ASPProjekatCarRental.Application.UseCases.Commands.ICreatePriceDto)">
+            <summary>
+            Inserting new price
+            </summary>
+            <remarks>
+            This methos is inserting new price
+            </remarks>  
+            <response code="204">Successfully inserted price</response>
+            <response code="400">Validation exception</response>
+            <response code="500">Server Error</response>
+        </member>
+        <member name="M:ASPProjekatCarRental.Api.Controllers.RegisterController.Post(ASPProjekatCarRental.Api.Core.Dto.RegisterUserWithImageDto,ASPProjekatCarRental.Application.UseCases.Commands.IRegisterUserCommand)">
+            <summary>
+            Inserting new User
+            </summary>
+            <remarks>
+            For this method you don't need to be authorized to execute
+            </remarks>  
+            <response code="204">Successfully inserted user</response>
+            <response code="400">Validation exception</response>
+            <response code="500">Server Error</response>
+        </member>
+        <member name="M:ASPProjekatCarRental.Api.Controllers.RentingsController.Post(ASPProjekatCarRental.Application.UseCases.DTO.ReceiveDto.ReceiveRentingDto,ASPProjekatCarRental.Application.UseCases.Commands.ICreateRentCommand)">
+            <summary>
+            Renting cars
+            </summary>
+            <remarks>
+            This method is for renting a car. You can't rent car that is already rented and can't rent car which property DeletedAt is not null.
+            </remarks>  
+            <response code="201">Successfully rented a car</response>
+            <response code="400">Validation exception</response>
+            <response code="500">Server Error</response>
+        </member>
+        <member name="M:ASPProjekatCarRental.Api.Controllers.RentingsController.Delete(System.Int32,ASPProjekatCarRental.Application.UseCases.Commands.IDeleteRentCommand)">
+            <summary>
+            Deleting rent
+            </summary>
+            <remarks>
+            This command is setting DeletedAt property to current date. It's not allowed to fully rent!
+            </remarks>  
+            <response code="204">Successfully deleted car</response>
+            <response code="400">Validation exception</response>
+            <response code="500">Server Error</response>
+        </member>
+        <member name="M:ASPProjekatCarRental.Api.Controllers.SpecificationController.Delete(System.Int32,ASPProjekatCarRental.Application.UseCases.Commands.IDeleteSpecificationCommand)">
+            <summary>
+            Deleting specification
+            </summary>
+            <remarks>
+            This command is deleting specification from database.
+            </remarks>  
+            <response code="204">Successfully deleted specification</response>
+            <response code="400">Validation exception</response>
+            <response code="500">Server Error</response>
+        </member>
+        <member name="M:ASPProjekatCarRental.Api.Controllers.TokenController.Post(ASPProjekatCarRental.Api.Controllers.TokenRequest)">
+            <summary>
+            Returns JWT token
+            </summary>
+            <remarks>
+            Endpoint returns Authorization (JWT) token.
+            </remarks>  
+            <response code="200">Successfully return token</response>
+            <response code="401">Unauthorized</response>
+            <response code="500">Server Error</response>
+        </member>
+        <member name="M:ASPProjekatCarRental.Api.Controllers.TokenController.InvalidateToken(ASPProjekatCarRental.Api.Core.ITokenStorage)">
+            <summary>
+            Logout
+            </summary>
+            <remarks>
+            This command logging out user.
+            </remarks>  
+            <response code="204">Successfully deleted car</response>
+            <response code="500">Server Error</response>
+        </member>
+        <member name="M:ASPProjekatCarRental.Api.Controllers.UserController.Get(ASPProjekatCarRental.Application.UseCases.DTO.SearchDto.UserSearchDto,ASPProjekatCarRental.Application.UseCases.Queries.IGetUsersQuery)">
+            <summary>
+            Return paged users response
+            </summary>
+            <remarks>
+            Query params:
+            <b>- Keyword:</b> Filter users by First name, Last name, Username and Email.
+            <b>- PerPage</b> Return number of users that are set by PerPage
+            <b>- Page</b> Return users on that page
+            
+            Returns:<br/>
+            <b>First name</b><br/>
+            <b>Last name</b><br/>
+            <b>Username</b><br/>
+            <b>Email</b><br/>
+            <b>Phone</b><br/>
+            <b>Addres</b><br/>
+            <b>Array of Use Cases</b><br/>
+            </remarks>  
+            <response code="200">Successfully returns cars</response>
+            <response code="500">Server Error</response>
+        </member>
+        <member name="M:ASPProjekatCarRental.Api.Controllers.UserController.Put(ASPProjekatCarRental.Api.Core.Dto.UpdateUserWithImageDto,ASPProjekatCarRental.Application.UseCases.Commands.IUpdateUserCommand)">
+            <summary>
+            Changing users informations
+            </summary>
+            <remarks>
+            This method change already existed values for a user.
+            </remarks>  
+            <response code="204">Successfully changed car</response>
+            <response code="400">Validation exception</response>
+            <response code="500">Server Error</response>
+        </member>
+        <member name="M:ASPProjekatCarRental.Api.Controllers.UserController.Delete(System.Int32,ASPProjekatCarRental.Application.UseCases.Commands.IDeleteUserCommand)">
+            <summary>
+            Deleting user
+            </summary>
+            <remarks>
+            This command is setting DeletedAt property to current date. It's not allowed to fully delete a user!
+            </remarks>  
+            <response code="204">Successfully deleted car</response>
+            <response code="400">Validation exception</response>
+            <response code="500">Server Error</response>
+        </member>
+    </members>
+</doc>
