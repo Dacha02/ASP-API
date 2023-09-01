@@ -25,6 +25,16 @@ var settings = new AppSettings();
 builder.Configuration.Bind(settings);
 builder.Services.AddSingleton(settings);
 
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(builder =>
+    {
+        builder.AllowAnyOrigin()
+               .AllowAnyMethod()
+               .AllowAnyHeader();
+    });
+});
+
 builder.Services.AddApplicationUser();
 builder.Services.AddTransient<ITokenStorage, InMemoryTokenStorage>();
 builder.Services.AddJwt(settings);
@@ -106,11 +116,14 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseCors();
+
 app.UseHttpsRedirection();
 
 app.UseMiddleware<GlobalExceptionHandler>();
 app.UseAuthentication();
 app.UseAuthorization();
+
 
 app.MapControllers();
 

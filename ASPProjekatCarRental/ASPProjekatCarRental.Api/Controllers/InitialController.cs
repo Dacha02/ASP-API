@@ -129,8 +129,24 @@ namespace ASPProjekatCarRental.Api.Controllers
                     },
                     new UseCase
                     {
-                        UseCaseName = "Update Car Command"
-                    }
+                        UseCaseName = "Update User Command"
+                    },
+                    new UseCase
+                    {
+                        UseCaseName = "Find User Rentings Query"
+                    },
+                    new UseCase
+                    {
+                        UseCaseName = "Get car details Query"
+                    },
+                    new UseCase
+                    {
+                        UseCaseName = "Activate User Command"
+                    },
+                    new UseCase
+                    {
+                        UseCaseName = "Find User Query"
+                    },
                 };
 
                 var userUseCases = new List<UserUseCase>

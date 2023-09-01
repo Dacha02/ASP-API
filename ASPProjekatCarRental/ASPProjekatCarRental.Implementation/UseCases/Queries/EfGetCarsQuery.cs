@@ -46,15 +46,15 @@ namespace ASPProjekatCarRental.Implementation.UseCases.Queries
                 cars = cars.Where(car => car.Rentings.All(renting => renting.EndtDate < request.StartOfRent || renting.StartDate > request.EndOfRent && renting.DeletedAt == null));
             }
 
-            if(request.IsDeleted == false)
-            {
-                cars = cars.Where(car => car.DeletedAt == null);
-            }
+            //if(request.IsDeleted == false)
+            //{
+            //    cars = cars.Where(car => car.DeletedAt == null);
+            //}
 
-            if(request.IsDeleted == true)
-            {
-                cars = cars.Where(car => car.DeletedAt != null);
-            }
+            //if(request.IsDeleted == true)
+            //{
+            //    cars = cars.Where(car => car.DeletedAt != null);
+            //}
 
 
             if (request.PerPage == null || request.PerPage <1)
@@ -75,9 +75,11 @@ namespace ASPProjekatCarRental.Implementation.UseCases.Queries
 
             result.Data = cars.Skip(toSkip).Take(request.PerPage.Value).Select(x => new ResponseSearchCarDto
             {
+                CarId = x.Id,
                 Manufacturer = x.Model.Manufacturer.Manufacturer_Name,
                 Model = x.Model.ModelName,
                 RegistrationPlate = x.Registrations.Select(x => x.RegistrationPlate.Plate).First(),
+                DeletedAt = x.DeletedAt,
                 Specifications = x.SpecificationCar.Select(y => new SpecificationCarDto
                 {
                     SpecificationName = y.SSpecificationSpecificationValue.Specification.SpecificationName,
@@ -88,7 +90,8 @@ namespace ASPProjekatCarRental.Implementation.UseCases.Queries
                 PricePerMonth = x.Prices.OrderByDescending(y => y.CreatedAt).Select(x => x.PricePerMonth).FirstOrDefault(),
                 StartOfRent = ((x.Rentings.OrderByDescending(y => y.EndtDate).Select(y => y.EndtDate).FirstOrDefault() >= DateTime.UtcNow ? (x.Rentings.OrderByDescending(y => y.EndtDate).Select(y => y.StartDate).FirstOrDefault()) : null)),
                 EndOfRent = ((x.Rentings.OrderByDescending(y => y.EndtDate).Select(y => y.EndtDate).FirstOrDefault() >= DateTime.UtcNow ? (x.Rentings.OrderByDescending(y=> y.EndtDate).Select(y => y.EndtDate).FirstOrDefault()) : null)),
-                EndOfRegistration = x.Registrations.OrderByDescending(x=> x.EndOfRegistration).Select(x=> x.EndOfRegistration).FirstOrDefault()
+                EndOfRegistration = x.Registrations.OrderByDescending(x=> x.EndOfRegistration).Select(x=> x.EndOfRegistration).FirstOrDefault(),
+                ImagePath = x.ImagePath
             }).ToList();
             result.CurrentPage = request.Page.Value;
             result.ItemsPerPage = request.PerPage.Value;

@@ -131,6 +131,12 @@ namespace ASPProjekatCarRental.Api.Extensions
             services.AddTransient<IDeleteRentCommand, EfDeleteRentCommand>();
             services.AddTransient<IDeleteUserCommand, EfDeleteUserCommand>();
             services.AddTransient<IUpdateUserCommand, EfUpdateUserCommand>();
+            services.AddTransient<IFindUserQuery, EfFindUserQuery>();
+            services.AddTransient<IFindUserRentingsQuery, EfUserRentingsQuery>();
+            services.AddTransient<IActivateUserCommand, EfActivateUserCommand>();
+            services.AddTransient<IGetCarDetailsQuery, EfGetCarDetailsQuery>();
+            services.AddTransient<IGetProfitsQuery, EfGetProfitsQuery>();
+            services.AddTransient<IGetRentingsQuery, EfGetRentingsQuery>();
 
             #region Validators
             services.AddTransient<RegisterUserValidator>();

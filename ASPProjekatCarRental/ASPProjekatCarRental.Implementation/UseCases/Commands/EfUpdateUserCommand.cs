@@ -30,15 +30,15 @@ namespace ASPProjekatCarRental.Implementation.UseCases.Commands
         {
             _validator.ValidateAndThrow(request);
 
-            var cryptedPassword = BCrypt.Net.BCrypt.HashPassword(request.Password);
+            //var cryptedPassword = BCrypt.Net.BCrypt.HashPassword(request.Password);
 
             var user = Context.Users.Find(request.UserId);
 
             user.FirstName = request.FirstName;
             user.UserName = request.Username;
             user.LastName = request.LastName;
-            user.Email = request.Email;
-            user.Password = cryptedPassword;
+            //user.Email = request.Email;
+            //user.Password = cryptedPassword;
             user.Adress = request.Address;
             user.Phone = request.Phone;
             user.ImagePath = request.ImagePath;

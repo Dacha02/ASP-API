@@ -41,7 +41,7 @@ namespace ASPProjekatCarRental.Implementation.Validators
                     .MaximumLength(12).WithMessage("Maximum length is 12 characters!")
                     .Matches(userNameRegex).WithMessage("Username is not in the correct format!");
 
-            RuleFor(x => x.Password)
+          /*  RuleFor(x => x.Password)
                    .Cascade(CascadeMode.Stop)
                    .NotEmpty().WithMessage("Password is required!")
                    .MinimumLength(8).WithMessage("Minimum length is 8 characters!")
@@ -50,7 +50,7 @@ namespace ASPProjekatCarRental.Implementation.Validators
             RuleFor(x => x.Email)
                     .Cascade(CascadeMode.Stop)
                     .NotEmpty().WithMessage("Email is required!")
-                    .EmailAddress().WithMessage("Email is not in correct format!");
+                    .EmailAddress().WithMessage("Email is not in correct format!");*/
 
             RuleFor(x => x.Phone)
                    .Cascade(CascadeMode.Stop)

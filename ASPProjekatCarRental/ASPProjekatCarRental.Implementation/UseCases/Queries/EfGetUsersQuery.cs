@@ -53,6 +53,7 @@ namespace ASPProjekatCarRental.Implementation.UseCases.Queries
 
             result.Data = user.Skip(toSkip).Take(request.PerPage.Value).Select(x => new ResponseUserDto
             {
+                Id = x.Id,
                 FirstName = x.FirstName,
                 LastName = x.LastName,
                 UserName = x.UserName,
@@ -60,6 +61,7 @@ namespace ASPProjekatCarRental.Implementation.UseCases.Queries
                 Email = x.Email,
                 Phone = x.Email,
                 ImagePath = x.ImagePath,
+                DeletedAt = x.DeletedAt,
                 UserUseCases = x.UserUseCases.Select(y => new UserUseCasesDto
                 {
                     UseCaseName = y.UseCase.UseCaseName

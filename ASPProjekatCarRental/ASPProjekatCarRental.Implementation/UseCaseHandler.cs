@@ -29,7 +29,7 @@ namespace ASPProjekatCarRental.Implementation
         {
             try
             {
-                HandleLoggingAndAuthorization(command, data);
+                //HandleLoggingAndAuthorization(command, data);
 
                 var stopwatch = new Stopwatch();
                 stopwatch.Start();
@@ -53,7 +53,7 @@ namespace ASPProjekatCarRental.Implementation
         {
             try
             {
-                HandleLoggingAndAuthorization(query, data);
+                //HandleLoggingAndAuthorization(query, data);
 
                 var stopwatch = new Stopwatch();
                 stopwatch.Start();
@@ -75,7 +75,7 @@ namespace ASPProjekatCarRental.Implementation
 
         private void HandleLoggingAndAuthorization<TRequest>(IUseCase useCase, TRequest data)
         {
-            var isAuthorized = _user.UseCaseIds.Contains(useCase.Id);
+            var isAuthorized = _user.UseCaseIds.Contains(useCase.Id);   
 
             var log = new UseCaseLog
             {

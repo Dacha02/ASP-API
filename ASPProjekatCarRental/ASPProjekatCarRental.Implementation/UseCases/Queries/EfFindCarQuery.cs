@@ -43,11 +43,17 @@ namespace ASPProjekatCarRental.Implementation.UseCases.Queries
             {
                 var result = new ResponseSearchCarDto
                 {
+                    CarId = car.Id,
                     Manufacturer = car.Model.Manufacturer?.Manufacturer_Name,
                     Model = car.Model?.ModelName,
                     RegistrationPlate = car.Registrations?.Select(x => x.RegistrationPlate.Plate).FirstOrDefault(),
+                    ModelId = car.Model.Id,
+                    CategoryId = car.Category.Id,
+                    RentingPlaceId = car.RentingPlace.Id,
+                    StartOfRegistration = car.Registrations.Select(x=> x.StartOfRegistration).FirstOrDefault(),
                     Specifications = car.SpecificationCar?.Select(y => new SpecificationCarDto
                     {
+                        Id = y.SSpecificationValueId,
                         SpecificationName = y.SSpecificationSpecificationValue?.Specification?.SpecificationName,
                         SpecificationValue = y.SSpecificationSpecificationValue?.SpecificationValue?.Value
                     }),
