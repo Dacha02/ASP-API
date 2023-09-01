@@ -8,6 +8,7 @@ namespace ASPProjekatCarRental.Application.UseCases.DTO.ResponseDto
 {
     public class ResponseUserDto
     {
+        public int Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string UserName { get; set; }
@@ -15,6 +16,7 @@ namespace ASPProjekatCarRental.Application.UseCases.DTO.ResponseDto
         public string Phone { get; set; }
         public string Address { get; set; }
         public string ImagePath { get; set; }
+        public DateTime? DeletedAt { get; set; }
 
         public IEnumerable<UserUseCasesDto> UserUseCases { get; set; } = new List<UserUseCasesDto>();
     }

@@ -19,7 +19,7 @@ namespace ASPProjekatCarRental.Api.Core
 
         public int Id => 1;
 
-        public IEnumerable<int> UseCaseIds => new List<int> { 1,2 };
+        public IEnumerable<int> UseCaseIds => new List<int> { 1,2,3,11 };
 
         public string Email => "annymous@asp-api.com";
     }

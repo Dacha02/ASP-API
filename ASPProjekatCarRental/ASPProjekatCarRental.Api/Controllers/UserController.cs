@@ -13,7 +13,7 @@ namespace ASPProjekatCarRental.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+    //[Authorize]
     public class UserController : ControllerBase
     {
         private UseCaseHandler _handler;
@@ -54,6 +54,11 @@ namespace ASPProjekatCarRental.Api.Controllers
         public static IEnumerable<string> AllowedExtensions =>
            new List<string> { ".jpg", ".png", ".jpeg" };
 
+        [HttpGet("{id}")]
+        public IActionResult Get(int id, [FromServices] IFindUserQuery query)
+        {
+            return Ok(_handler.HandleQuery(query, id));
+        }
 
         /// <summary>
         /// Changing users informations

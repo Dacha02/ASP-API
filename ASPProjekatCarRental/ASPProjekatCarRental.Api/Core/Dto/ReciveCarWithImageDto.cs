@@ -9,6 +9,6 @@ namespace ASPProjekatCarRental.Api.Core.Dto
 
     public class ReciveCarWithCarIdWithImageDto : ReceiveCarDtoWithCarId
     {
-        public IFormFile Image { get; set; }
+        public IFormFile? Image { get; set; }
     }
 }

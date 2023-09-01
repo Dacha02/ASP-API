@@ -1,5 +1,7 @@
 ﻿using ASPProjekatCarRental.Application.UseCases.Commands;
 using ASPProjekatCarRental.Application.UseCases.DTO.ReceiveDto;
+using ASPProjekatCarRental.Application.UseCases.DTO.SearchDto;
+using ASPProjekatCarRental.Application.UseCases.Queries;
 using ASPProjekatCarRental.Implementation;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -10,7 +12,7 @@ namespace ASPProjekatCarRental.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+    //[Authorize]
     public class RentingsController : ControllerBase
     {
         private UseCaseHandler _handler;
@@ -20,19 +22,40 @@ namespace ASPProjekatCarRental.Api.Controllers
             _handler = handler;
         }
 
-        /*// GET: api/<RentingsController>
+        // GET: api/<RentingsController>
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IActionResult Get([FromQuery] BaseSearchWithIsRented dto, [FromServices] IGetRentingsQuery query)
         {
-            return new string[] { "value1", "value2" };
+            return Ok(_handler.HandleQuery(query, dto));
         }
 
+        /*
         // GET api/<RentingsController>/5
         [HttpGet("{id}")]
         public string Get(int id)
         {
             return "value";
         }*/
+
+        [Authorize]
+        [HttpGet]
+        [Route("getUserRentings")]
+       
+        public IActionResult GetUserRentings([FromServices] IFindUserRentingsQuery query)
+        {
+           return Ok(_handler.HandleQuery(query, _class));
+        }
+
+
+        [HttpGet]
+        [Route("profits")]
+
+        public IActionResult GetProfits([FromServices] IGetProfitsQuery query)
+        {
+            return Ok(_handler.HandleQuery(query, _class));
+        }
+
+        private DummyClass _class;
 
         /// <summary>
         /// Renting cars

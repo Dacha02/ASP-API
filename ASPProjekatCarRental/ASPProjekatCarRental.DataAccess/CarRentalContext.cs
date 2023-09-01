@@ -66,5 +66,6 @@ namespace ASPProjekatCarRental.DataAccess
         public DbSet<UseCase> UseCases { get; set; }
         public DbSet<UserUseCase> UserUseCases { get; set; }
         public DbSet<AuditLog> AuditLogs { get; set; }
+        public DbSet<LoginModel> LoginModels { get; set; }
     }
 }

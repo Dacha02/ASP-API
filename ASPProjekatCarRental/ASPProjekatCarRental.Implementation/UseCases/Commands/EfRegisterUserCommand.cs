@@ -61,6 +61,27 @@ namespace ASPProjekatCarRental.Implementation.UseCases.Commands
                 {
                     User = user,
                     UseCaseId = 11
+                },
+                new UserUseCase
+                {
+                    User = user,
+                    UseCaseId = 20
+                },
+                new UserUseCase
+                {
+                    User = user,
+                    UseCaseId = 17
+                },
+                new UserUseCase
+                {
+                    User = user,
+                    UseCaseId = 16
+                },
+
+                new UserUseCase
+                {
+                    User = user,
+                    UseCaseId = 14
                 }
             };
 

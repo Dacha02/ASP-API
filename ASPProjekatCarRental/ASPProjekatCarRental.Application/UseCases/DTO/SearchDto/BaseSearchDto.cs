@@ -23,7 +23,7 @@ namespace ASPProjekatCarRental.Application.UseCases.DTO.SearchDto
         public string? Keyword { get; set; }
         public DateTime? StartOfRent { get; set; }
         public DateTime? EndOfRent { get; set; }
-        public bool IsDeleted { get; set; }
+        //public bool IsDeleted { get; set; }
     }
 
     public class SearchForAuditLog : PagedSearch

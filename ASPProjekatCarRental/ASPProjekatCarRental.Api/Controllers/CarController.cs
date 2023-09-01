@@ -14,7 +14,7 @@ namespace ASPProjekatCarRental.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+   /* [Authorize]*/
     public class CarController : ControllerBase
     {
         public static IEnumerable<string> AllowedExtensions =>
