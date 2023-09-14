@@ -83,6 +83,19 @@
           }
         }
       },
+      "Humanizer.Core/2.14.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Humanizer.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Humanizer.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.CSharp/4.5.0": {
         "type": "package",
         "compile": {
@@ -1698,6 +1711,24 @@
         "lib/netstandard2.0/FluentValidation.xml",
         "lib/netstandard2.1/FluentValidation.dll",
         "lib/netstandard2.1/FluentValidation.xml"
+      ]
+    },
+    "Humanizer.Core/2.14.1": {
+      "sha512": "lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
+      "type": "package",
+      "path": "humanizer.core/2.14.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "humanizer.core.2.14.1.nupkg.sha512",
+        "humanizer.core.nuspec",
+        "lib/net6.0/Humanizer.dll",
+        "lib/net6.0/Humanizer.xml",
+        "lib/netstandard1.0/Humanizer.dll",
+        "lib/netstandard1.0/Humanizer.xml",
+        "lib/netstandard2.0/Humanizer.dll",
+        "lib/netstandard2.0/Humanizer.xml",
+        "logo.png"
       ]
     },
     "Microsoft.CSharp/4.5.0": {
@@ -5280,6 +5311,7 @@
       "Bogus >= 34.0.2",
       "Faker.Net >= 2.0.154",
       "FluentValidation >= 11.5.2",
+      "Humanizer.Core >= 2.14.1",
       "Newtonsoft.Json >= 13.0.3"
     ]
   },
@@ -5289,11 +5321,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Projekat\\ASPProjekatCarRental\\ASPProjekatCarRental.Implementation\\ASPProjekatCarRental.Implementation.csproj",
+      "projectUniqueName": "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Diplomski\\ASP-API\\ASPProjekatCarRental\\ASPProjekatCarRental.Implementation\\ASPProjekatCarRental.Implementation.csproj",
       "projectName": "ASPProjekatCarRental.Implementation",
-      "projectPath": "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Projekat\\ASPProjekatCarRental\\ASPProjekatCarRental.Implementation\\ASPProjekatCarRental.Implementation.csproj",
+      "projectPath": "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Diplomski\\ASP-API\\ASPProjekatCarRental\\ASPProjekatCarRental.Implementation\\ASPProjekatCarRental.Implementation.csproj",
       "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Projekat\\ASPProjekatCarRental\\ASPProjekatCarRental.Implementation\\obj\\",
+      "outputPath": "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Diplomski\\ASP-API\\ASPProjekatCarRental\\ASPProjekatCarRental.Implementation\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5310,8 +5342,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Projekat\\ASPProjekatCarRental\\ASPProjekatCarRental.Application\\ASPProjekatCarRental.Application.csproj": {
-              "projectPath": "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Projekat\\ASPProjekatCarRental\\ASPProjekatCarRental.Application\\ASPProjekatCarRental.Application.csproj"
+            "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Diplomski\\ASP-API\\ASPProjekatCarRental\\ASPProjekatCarRental.Application\\ASPProjekatCarRental.Application.csproj": {
+              "projectPath": "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Diplomski\\ASP-API\\ASPProjekatCarRental\\ASPProjekatCarRental.Application\\ASPProjekatCarRental.Application.csproj"
             }
           }
         }
@@ -5341,6 +5373,10 @@
           "FluentValidation": {
             "target": "Package",
             "version": "[11.5.2, )"
+          },
+          "Humanizer.Core": {
+            "target": "Package",
+            "version": "[2.14.1, )"
           },
           "Newtonsoft.Json": {
             "target": "Package",

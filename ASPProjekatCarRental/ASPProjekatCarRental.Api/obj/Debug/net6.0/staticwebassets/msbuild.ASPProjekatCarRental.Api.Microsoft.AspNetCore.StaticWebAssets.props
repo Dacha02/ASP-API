@@ -128,6 +128,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\carsimages\3af08b48-1815-4636-83a4-19408d680774.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\carsimages\3b985fe6-80f8-451f-8cfe-fdc35d6e0626.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ASPProjekatCarRental.Api</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ASPProjekatCarRental.Api</BasePath>
+      <RelativePath>carsimages/3b985fe6-80f8-451f-8cfe-fdc35d6e0626.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\carsimages\3b985fe6-80f8-451f-8cfe-fdc35d6e0626.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\carsimages\3f7d07c6-0c15-4c4c-99d8-0cbdd742eeb7.png))">
       <SourceType>Package</SourceType>
       <SourceId>ASPProjekatCarRental.Api</SourceId>
@@ -464,6 +480,38 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\carsimages\e3ca7406-2317-4012-9440-ff38dfd2bd08.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\carsimages\ea6b22d0-e80e-4c38-aa4c-2b4e18e8f990.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ASPProjekatCarRental.Api</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ASPProjekatCarRental.Api</BasePath>
+      <RelativePath>carsimages/ea6b22d0-e80e-4c38-aa4c-2b4e18e8f990.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\carsimages\ea6b22d0-e80e-4c38-aa4c-2b4e18e8f990.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\carsimages\eb7219bd-f27e-4b4c-9d84-dc04e4357f64.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ASPProjekatCarRental.Api</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ASPProjekatCarRental.Api</BasePath>
+      <RelativePath>carsimages/eb7219bd-f27e-4b4c-9d84-dc04e4357f64.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\carsimages\eb7219bd-f27e-4b4c-9d84-dc04e4357f64.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\carsimages\ed4d0d3f-445e-4c28-8db7-8a0cd07efd81.png))">
       <SourceType>Package</SourceType>
       <SourceId>ASPProjekatCarRental.Api</SourceId>
@@ -719,6 +767,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\userimages\47f4d930-4101-4921-9caf-6a5065a6e807.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\userimages\5538db78-073e-40b8-bb6e-c1c3bc3daf0c.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>ASPProjekatCarRental.Api</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ASPProjekatCarRental.Api</BasePath>
+      <RelativePath>userimages/5538db78-073e-40b8-bb6e-c1c3bc3daf0c.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\userimages\5538db78-073e-40b8-bb6e-c1c3bc3daf0c.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\userimages\63d423d8-4778-4e4f-a5e4-7e4d5e0cf193.jpg))">
       <SourceType>Package</SourceType>

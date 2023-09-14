@@ -12,8 +12,8 @@ namespace ASPProjekatCarRental.Application.UseCases.DTO.ResponseDto
         public int Id { get; set; }
         public string Model { get; set; }
         public string Manufacturer { get; set; }
-        public DateTime StartOfRent { get; set; }
-        public DateTime EndOfRent { get; set; }
+        public string StartOfRent { get; set; }
+        public string EndOfRent { get; set; }
         public decimal SumCost { get; set; }
         public string RentAddress { get; set; }
     }

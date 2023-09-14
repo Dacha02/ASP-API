@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NFTPT3+o8pdfpGhOU/pf+USaTLtnDfgyvyvUr/gx3rWDd04H7/s0zCzARaiZBqhF+qANEKXnGXzzZQ4ldFTIbA==",
+  "dgSpecHash": "9y/en1nx3wrMALL3DeE3Tjs5RYzwfYuasXyh80y6v8sNX13yH7+ipC8StKMS5ltRawbw8Jma27Epp8Tn/+nSkQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Projekat\\ASPProjekatCarRental\\ASPProjekatCarRental.Application\\ASPProjekatCarRental.Application.csproj",
+  "projectFilePath": "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Diplomski\\ASP-API\\ASPProjekatCarRental\\ASPProjekatCarRental.Application\\ASPProjekatCarRental.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\david\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\david\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

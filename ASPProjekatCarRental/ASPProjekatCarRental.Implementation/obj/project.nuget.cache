@@ -1,14 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "9TJLghPkuhJfFuztJXPrqaWQfUP3i8eRVKODZfoqEMwT8Ke/TkFJ5wY1SqTfgc9/ZFU7BhkAh32gYQF7h9xSSA==",
+  "dgSpecHash": "swQ9cXuSQ4gFge0IPxY9sQjYSHf7JjkfW3+sFSXjQRkifDV/iHed3n3/jqn+9tSihQK2tBE4m4GV0RBrde4smQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Projekat\\ASPProjekatCarRental\\ASPProjekatCarRental.Implementation\\ASPProjekatCarRental.Implementation.csproj",
+  "projectFilePath": "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Diplomski\\ASP-API\\ASPProjekatCarRental\\ASPProjekatCarRental.Implementation\\ASPProjekatCarRental.Implementation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\david\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\david\\.nuget\\packages\\bogus\\34.0.2\\bogus.34.0.2.nupkg.sha512",
     "C:\\Users\\david\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\david\\.nuget\\packages\\faker.net\\2.0.154\\faker.net.2.0.154.nupkg.sha512",
     "C:\\Users\\david\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
+    "C:\\Users\\david\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\david\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\david\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\david\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",

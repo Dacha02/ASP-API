@@ -7018,11 +7018,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Projekat\\ASPProjekatCarRental\\ASPProjekatCarRental.Application\\ASPProjekatCarRental.Application.csproj",
+      "projectUniqueName": "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Diplomski\\ASP-API\\ASPProjekatCarRental\\ASPProjekatCarRental.Application\\ASPProjekatCarRental.Application.csproj",
       "projectName": "ASPProjekatCarRental.Application",
-      "projectPath": "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Projekat\\ASPProjekatCarRental\\ASPProjekatCarRental.Application\\ASPProjekatCarRental.Application.csproj",
+      "projectPath": "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Diplomski\\ASP-API\\ASPProjekatCarRental\\ASPProjekatCarRental.Application\\ASPProjekatCarRental.Application.csproj",
       "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Projekat\\ASPProjekatCarRental\\ASPProjekatCarRental.Application\\obj\\",
+      "outputPath": "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Diplomski\\ASP-API\\ASPProjekatCarRental\\ASPProjekatCarRental.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7039,11 +7039,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Projekat\\ASPProjekatCarRental\\ASPProjekatCarRental.DataAccess\\ASPProjekatCarRental.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Projekat\\ASPProjekatCarRental\\ASPProjekatCarRental.DataAccess\\ASPProjekatCarRental.DataAccess.csproj"
+            "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Diplomski\\ASP-API\\ASPProjekatCarRental\\ASPProjekatCarRental.DataAccess\\ASPProjekatCarRental.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Diplomski\\ASP-API\\ASPProjekatCarRental\\ASPProjekatCarRental.DataAccess\\ASPProjekatCarRental.DataAccess.csproj"
             },
-            "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Projekat\\ASPProjekatCarRental\\ASPProjekatCarRental.Domain\\ASPProjekatCarRental.Domain.csproj": {
-              "projectPath": "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Projekat\\ASPProjekatCarRental\\ASPProjekatCarRental.Domain\\ASPProjekatCarRental.Domain.csproj"
+            "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Diplomski\\ASP-API\\ASPProjekatCarRental\\ASPProjekatCarRental.Domain\\ASPProjekatCarRental.Domain.csproj": {
+              "projectPath": "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Diplomski\\ASP-API\\ASPProjekatCarRental\\ASPProjekatCarRental.Domain\\ASPProjekatCarRental.Domain.csproj"
             }
           }
         }

@@ -10,3 +10,15 @@ C:\Users\david\Desktop\Programi\Treca godina\ASP\Ja\Projekat\ASPProjekatCarRenta
 C:\Users\david\Desktop\Programi\Treca godina\ASP\Ja\Projekat\ASPProjekatCarRental\ASPProjekatCarRental.Domain\obj\Debug\net6.0\refint\ASPProjekatCarRental.Domain.dll
 C:\Users\david\Desktop\Programi\Treca godina\ASP\Ja\Projekat\ASPProjekatCarRental\ASPProjekatCarRental.Domain\obj\Debug\net6.0\ASPProjekatCarRental.Domain.pdb
 C:\Users\david\Desktop\Programi\Treca godina\ASP\Ja\Projekat\ASPProjekatCarRental\ASPProjekatCarRental.Domain\obj\Debug\net6.0\ref\ASPProjekatCarRental.Domain.dll
+C:\Users\david\Desktop\Programi\Treca godina\ASP\Ja\Diplomski\ASP-API\ASPProjekatCarRental\ASPProjekatCarRental.Domain\bin\Debug\net6.0\ASPProjekatCarRental.Domain.deps.json
+C:\Users\david\Desktop\Programi\Treca godina\ASP\Ja\Diplomski\ASP-API\ASPProjekatCarRental\ASPProjekatCarRental.Domain\bin\Debug\net6.0\ASPProjekatCarRental.Domain.dll
+C:\Users\david\Desktop\Programi\Treca godina\ASP\Ja\Diplomski\ASP-API\ASPProjekatCarRental\ASPProjekatCarRental.Domain\bin\Debug\net6.0\ASPProjekatCarRental.Domain.pdb
+C:\Users\david\Desktop\Programi\Treca godina\ASP\Ja\Diplomski\ASP-API\ASPProjekatCarRental\ASPProjekatCarRental.Domain\obj\Debug\net6.0\ASPProjekatCarRental.Domain.csproj.AssemblyReference.cache
+C:\Users\david\Desktop\Programi\Treca godina\ASP\Ja\Diplomski\ASP-API\ASPProjekatCarRental\ASPProjekatCarRental.Domain\obj\Debug\net6.0\ASPProjekatCarRental.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david\Desktop\Programi\Treca godina\ASP\Ja\Diplomski\ASP-API\ASPProjekatCarRental\ASPProjekatCarRental.Domain\obj\Debug\net6.0\ASPProjekatCarRental.Domain.AssemblyInfoInputs.cache
+C:\Users\david\Desktop\Programi\Treca godina\ASP\Ja\Diplomski\ASP-API\ASPProjekatCarRental\ASPProjekatCarRental.Domain\obj\Debug\net6.0\ASPProjekatCarRental.Domain.AssemblyInfo.cs
+C:\Users\david\Desktop\Programi\Treca godina\ASP\Ja\Diplomski\ASP-API\ASPProjekatCarRental\ASPProjekatCarRental.Domain\obj\Debug\net6.0\ASPProjekatCarRental.Domain.csproj.CoreCompileInputs.cache
+C:\Users\david\Desktop\Programi\Treca godina\ASP\Ja\Diplomski\ASP-API\ASPProjekatCarRental\ASPProjekatCarRental.Domain\obj\Debug\net6.0\ASPProjekatCarRental.Domain.dll
+C:\Users\david\Desktop\Programi\Treca godina\ASP\Ja\Diplomski\ASP-API\ASPProjekatCarRental\ASPProjekatCarRental.Domain\obj\Debug\net6.0\refint\ASPProjekatCarRental.Domain.dll
+C:\Users\david\Desktop\Programi\Treca godina\ASP\Ja\Diplomski\ASP-API\ASPProjekatCarRental\ASPProjekatCarRental.Domain\obj\Debug\net6.0\ASPProjekatCarRental.Domain.pdb
+C:\Users\david\Desktop\Programi\Treca godina\ASP\Ja\Diplomski\ASP-API\ASPProjekatCarRental\ASPProjekatCarRental.Domain\obj\Debug\net6.0\ref\ASPProjekatCarRental.Domain.dll

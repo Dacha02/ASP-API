@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Projekat\\ASPProjekatCarRental\\ASPProjekatCarRental.Domain\\ASPProjekatCarRental.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Diplomski\\ASP-API\\ASPProjekatCarRental\\ASPProjekatCarRental.Domain\\ASPProjekatCarRental.Domain.csproj",
       "projectName": "ASPProjekatCarRental.Domain",
-      "projectPath": "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Projekat\\ASPProjekatCarRental\\ASPProjekatCarRental.Domain\\ASPProjekatCarRental.Domain.csproj",
+      "projectPath": "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Diplomski\\ASP-API\\ASPProjekatCarRental\\ASPProjekatCarRental.Domain\\ASPProjekatCarRental.Domain.csproj",
       "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Projekat\\ASPProjekatCarRental\\ASPProjekatCarRental.Domain\\obj\\",
+      "outputPath": "C:\\Users\\david\\Desktop\\Programi\\Treca godina\\ASP\\Ja\\Diplomski\\ASP-API\\ASPProjekatCarRental\\ASPProjekatCarRental.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",

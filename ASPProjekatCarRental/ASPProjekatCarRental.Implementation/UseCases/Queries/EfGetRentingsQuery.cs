@@ -4,6 +4,7 @@ using ASPProjekatCarRental.Application.UseCases.Queries;
 using ASPProjekatCarRental.DataAccess;
 using ASPProjekatCarRental.Domain;
 using Bogus;
+using Humanizer;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -63,11 +64,11 @@ namespace ASPProjekatCarRental.Implementation.UseCases.Queries
 
             result.TotalCount = rentings.Count();
 
-            result.Data = rentings.Skip(toSkip).Take(request.PerPage.Value).Select(x => new RentingsQueryExtended
+            result.Data = rentings.Skip(toSkip).Take(request.PerPage.Value).ToList().Select(x => new RentingsQueryExtended
             {
                 Id = x.Id,
-                StartOfRent = x.StartDate,
-                EndOfRent = x.EndtDate,
+                StartOfRent = (x.StartDate - DateTime.Now).Humanize(2),
+                EndOfRent = (x.EndtDate - DateTime.Now).Humanize(2),
                 SumCost = x.SumCost,
                 RentAddress = x.RentAdress,
                 Model = x.Car.Model.ModelName,

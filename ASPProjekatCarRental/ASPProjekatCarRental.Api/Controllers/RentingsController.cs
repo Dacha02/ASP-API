@@ -75,11 +75,14 @@ namespace ASPProjekatCarRental.Api.Controllers
             return StatusCode(201);
         }
 
-        /*// PUT api/<RentingsController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        // PUT api/<RentingsController>/5
+        [HttpPut]
+        public IActionResult Put([FromBody] ReceiveRentIdDto dto, [FromServices] IChangeIsPaidCommand command)
         {
-        }*/
+            _handler.HandleCommand(command, dto);
+
+            return NoContent();
+        }
 
         /// <summary>
         /// Deleting rent

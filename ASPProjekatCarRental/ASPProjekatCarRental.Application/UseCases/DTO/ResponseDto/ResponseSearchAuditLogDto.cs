@@ -12,6 +12,6 @@ namespace ASPProjekatCarRental.Application.UseCases.DTO.ResponseDto
         public string Data { get; set; }
         public bool IsAuthorized { get; set; }
         public string UseCaseName { get; set; }
-        public DateTime TimeOfExecuction { get; set; }
+        public string TimeOfExecuction { get; set; }
     }
 }

@@ -2,6 +2,7 @@
 using ASPProjekatCarRental.Application.UseCases.DTO.SearchDto;
 using ASPProjekatCarRental.Application.UseCases.Queries;
 using ASPProjekatCarRental.DataAccess;
+using Humanizer;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -59,11 +60,11 @@ namespace ASPProjekatCarRental.Implementation.UseCases.Queries
 
             result.TotalCount = auditLog.Count();
 
-            result.Data = auditLog.Skip(toSkip).Take(request.PerPage.Value).Select(x => new ResponseSearchAuditLogDto
+            result.Data = auditLog.Skip(toSkip).Take(request.PerPage.Value).ToList().Select(x => new ResponseSearchAuditLogDto
             {
                 UserName = x.User.UserName,
                 UseCaseName = x.UseCaseName,
-                TimeOfExecuction = x.TimeOfExecution,
+                TimeOfExecuction = (x.TimeOfExecution - DateTime.Now).Humanize(2),
                 Data = x.Data,
                 IsAuthorized = x.IsAuthorized
             }).ToList();
